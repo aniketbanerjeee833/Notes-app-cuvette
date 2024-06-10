@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;&display=swap');
+
+*
+{
+  margin:0;
+  padding: 0;
+ 
+}
+
+
+/*COMMON___SECTION*/
+/* h1
+/* {
+  /* Cuvette Notes */
+
+
+/* font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+ */
+
+
+html
+{
+ overflow-y: hidden;
+ overflow-x: hidden;
+}
+ body
+{
+overflow-x: hidden;
+overflow-y: hidden;
+} 
+
+.hero-section
+{
+ 
+
+  height: 700px;
+ 
+ 
+}
+
+
+
+.grid
+{
+display: grid;
+}
+.grid-two-cols
+{
+  grid-template-columns: 0.3fr 0.7fr;
+}
+
+.first-container
+{
+
+padding-left: 1rem;
+  h1{
+/* Pocket Notes */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+  }
+}
+.to-do-lists-container
+{
+  /* border: 1px solid black;  */
+ 
+  
+  display: grid;
+  grid-template-rows: 0.1fr 0.1fr 1fr;
+  height: 100%;
+}
+.icon-notes-heading
+{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+
+.todo-notes-heading
+{
+    & h2
+    {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 20px;
+      /* or 46px */
+      
+      
+      color: #000000; 
+    }
+ 
+}
+.second-container
+{
+  /* border: 1px solid black; */
+ 
+
+ padding-left: 1rem;
+ padding-right: 1rem;
+ 
+  & .notes-container
+  {
+    /* border: 1px solid black; */
+   
+    height: 700px; 
+    display: grid;
+    grid-template-rows: 0.7fr 0.3fr;
+ 
+
+  background-color: #F7ECDC;
+ 
+
+  }
+}
+
+.notes-section-display
+{
+  /* border: 1px solid black;  */
+  height:100%;
+  display: grid;
+  grid-template-rows: 0.1fr 0.9fr;
+}
+
+.text-div
+{
+  /* border: 1px solid black; */
+
+
+/* Rectangle 23 */
+
+padding:1rem 1rem 1rem 1rem;
+background: #E8E8E8;
+display:flex;
+flex-direction: column;
+grid-row-start: 2;
+grid-row-end: 2;
+}
+
+#textarea
+{
+  /* border: 2px solid black; */
+height:70%;
+
+padding: 1rem;
+
+ 
+}
+.add-notes-container
+{
+  
+
+
+ padding-left:1rem;
+}
+.create-notes-button
+{
+  /* border: 1px solid black; */
+  padding-left:1rem;
+  height:50px;
+
+
+  & .button-icon
+  {
+    /* border: 1px solid black; */
+    
+height: 30px;
+width:200px;
+background: #000000;
+/* border-radius: 50px; */
+display: flex;
+justify-content: center;
+align-items: center;
+gap:5px;
+cursor: pointer;
+& button
+{
+
+
+height: 30px;
+width:150px;
+
+background: #000000;
+
+/* Create Notes group */
+display:flex;
+justify-content: flex-start;
+align-items: center;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height:20px ;
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+
+}
+& .icon-plus
+{
+  color: white;
+  /* border-radius: 1px solid ; */
+}
+/* Create Notes group */
+
+
+}
+  }
+ 
+.notes
+{
+ 
+ /* border: 1px solid black; */
+ 
+
+  /* Frame 2 */
+
+
+height: 50px;
+
+
+display: flex;
+padding-left: 2px;
+padding-top: 2px;
+align-items: flex-start;
+
+
+
+
+}
+
+ .icon
+{
+  /* Ellipse 16 */
+
+
+width: 40px;
+height: 40px;
+
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+text-transform: uppercase;
+/* CU */
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 24px;
+/* or 24px */
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+
+
+}
+
+
+
+
+
+
+.color-btns
+{
+ 
+  
+   border: 1px solid black; 
+   width:20px;
+   height:20px;
+   border-radius: 50%;
+  
+ 
+}
+
+
+
+.create-notes
+{
+  /* border: 1px solid black;  */
+  height:50px;
+  width:200px;
+  
+
+}
+
+
+.display-name-icon
+{
+
+
+background: #E8E8E8;
+display: flex;
+
+
+& .div-display-name-icon
+{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:5px;
+  & h2
+  {
+   
+    
+    /* Create New Notes group */
+    
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 46px */
+    
+    
+    color: #000000;
+    
+    
+     
+  }
+}
+
+}
+
+
+
+.notes-area
+{
+  
+  /* border: 1px solid black; */
+  
+  /* Rectangle 22 */
+
+height:26%;
+padding:1rem;
+border-radius: 0px;
+display: grid;
+grid-template-columns: 0.1fr 0.9fr;
+
+& div{
+
+
+padding-left: 10px;
+
+  & p
+  {
+   /* 10:10 Am */
+ 
+ 
+ 
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 15px;
+ line-height: 15px;
+ /* or 18px */
+ letter-spacing: 0.02em;
+ 
+ color: #353535;
+ 
+ 
+  }
+}
+
+
+ & .text
+ {
+  /* Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the original meaning. The purpose here is to just get the writing started so that when the writer goes onto their day's writing projects, words are already flowing from their fingers. */
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* or 29px */
+letter-spacing: 0.035em;
+
+color: #000000;
+
+
+ }
+}
+
+
+
+
+.enter-button
+{
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  background-color: white;
+  & button
+  {
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0.5;
+
+   & img
+    {
+      /* Vector */
+opacity:1;
+height:20px;
+width:30px;
+cursor: pointer;
+
+    }
+  
+}
+}
+.btn-style
+{
+  opacity: 0.4;
+}
+.active
+{
+  opacity: 1;
+}
+/*IMAGE___SECTION*/
+.mobile-container
+{
+ display: none;
+}
+
+.back
+{
+  display: none;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width:768px)
+{
+  .add-notes
+  {
+    position:fixed;
+top:50%;
+left: 0%;
+transform: translate(-50%,-50%);
+
+width: auto;
+height: auto;
+
+& form
+{
+  margin: 0 auto;
+}
+  }
+
+  .grid-two-cols
+  {
+grid-template-columns: repeat(1,1fr);
+grid-template-rows: repeat(1,1fr);
+  }
+
+
+ .second-container,.notes-container,.image-container
+  {
+  
+   transform: translateX(100%);
+   background-color: transparent;
+    opacity: 0;
+    visibility: hidden;
+/* 
+    & .notes-container
+    {
+      width:0px;
+    height: 0px;
+    background-color: transparent;
+
+    } */
+  }
+  /* .text-div
+  {
+    width:0px;
+    height: 0px;
+    background-color: transparent;
+
+  } */
+  /* .notes-section-display
+  {
+    width:0px;
+    height: 0px;
+    background-color: transparent;
+    opacity: 0;
+
+  } */
+  /* .hero-section
+  {
+    height: 100%;
+  } */
+
+   
+  .mobile-container
+  {
+    /* border: 1px solid black; */
+   
+    height: 700px; 
+    display: grid;
+    grid-template-rows: 0.7fr 0.3fr;
+ 
+
+  background-color: #F7ECDC;
+ 
+  }
+
+  .first-container
+  {
+  
+    height: 700px;
+  }
+  /* .to-do-lists-container
+  {
+    display: none;
+  } */
+  /* .mobile-container
+  {
+    border: 1px solid black;
+ 
+    padding-left: 1rem;
+    display: grid;
+    
+  height: 100%;
+ 
+} */
+  .back
+  {
+    display: block;
+  }
+  .modal-wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(47, 47, 47, 0.75);
+}
+}
